@@ -141,7 +141,7 @@ function obstacle(){
     default:console.log("unexpected number")
          } 
   
-  cactus.velocityX = -8;
+  cactus.velocityX =-8;
   cactus.scale = 0.6;
   cactus.lifetime = 100;
   trex.depth = cactus.depth+1;
